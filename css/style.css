@@ -8,18 +8,17 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     background: url('../assets/images/banner.png'), linear-gradient(#000000,  #0d2f3dd5, #000000);
     background-size: cover;
 }
 
 header .banner-content{
     width:510px;
-    height:393px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top:56px;
 
 }
 
@@ -31,7 +30,6 @@ header .banner-content .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
 header .banner-content .logo img {
@@ -52,7 +50,7 @@ header .banner-content h1 {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 header .banner-content p {
@@ -62,7 +60,7 @@ header .banner-content p {
     color: #fff;
     text-align: justify;
     letter-spacing: -0.5px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 header .banner-content button {
@@ -72,7 +70,7 @@ header .banner-content button {
     border: 2px solid;
     border-image-source: linear-gradient(#33A8DB, #1472B7);
     background-color: transparent;
-    margin-top: 30px;
+    margin-top: 25px;
     border-image-slice: 27;
     font-family: Raleway, sans-serif;
     font-size: 16px;
