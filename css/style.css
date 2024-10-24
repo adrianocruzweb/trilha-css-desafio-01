@@ -116,3 +116,108 @@ footer p a {
     color: #33A8DB;
     text-decoration: none;
 }
+
+main {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #000000;
+
+}
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 792px;
+    margin-top: 188px;
+}
+
+#course-content h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    font-weight:700;
+    color: #33A8DB;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    width: 477px;
+    margin-bottom: 20px;
+}
+
+#course-content p {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    color: white;
+    text-align: center;
+}
+
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.modules-list div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 20px;
+    background-color: #252525;
+    width: 535px;
+    padding: 16px;
+    border: 1px solid #33A8DB;
+    border-radius: 50px;
+    box-shadow: inset 0 4px 8px #000;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    color: white;
+    text-align: center;
+}
+
+.modules-list div span{
+    color: #33A8DB;
+    margin-right: 5px;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    color: #33A8DB;
+    text-align: center;
+}
+
+#transform-world {
+    width: 1440px;
+    height: 363px;
+    background-image: url('../assets/images/woman-code.png');
+    border: 1px solid #33A8DB;
+    margin-top: 50px;
+    background-size: cover;
+    overflow: auto;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#transform-world p {
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    font-weight:900;
+    color: white;
+    text-align: start;
+    text-shadow: 2px 2px 1px #33A8DB;
+    width: 269px;
+    height: 178px;
+    line-height: 117%;
+
+}
