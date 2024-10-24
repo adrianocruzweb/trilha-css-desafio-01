@@ -25,7 +25,7 @@ header .banner-content{
 header .banner-content .logo {
     width: 268px;
     height: 268px;
-    background-color: #000000DD;
+    background-color: #00000056;
     border-radius:50%;
     display: flex;
     justify-content: center;
@@ -81,7 +81,7 @@ header .banner-content button {
 
 footer {
     width: 1440px;
-    height: 250px;
+    height: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +93,8 @@ footer {
 footer img {
     width: 310px;
     height: 44px;
-    margin-top:59px;
+    margin-top:40px;
+    margin-bottom: 10px;
 
 }
 
@@ -103,6 +104,7 @@ footer p {
     font-weight:400;
     color: #fff;
     text-align: center;
+    display: block;
 }
 
 
@@ -113,5 +115,4 @@ footer p a {
     text-align: center;
     color: #33A8DB;
     text-decoration: none;
-    margin-top:25px;
 }
